@@ -1,6 +1,5 @@
 package ppp;
 
-import java.util.Scanner;
 
 public class PrimeraClase {
 
