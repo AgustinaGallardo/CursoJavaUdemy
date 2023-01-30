@@ -1,12 +1,12 @@
-package ppp;
+package Autos;
 
 public class AutoMain {
 	
 	public static void Main (String[] args) {
 		
-		String auto = "Peugeot";
+		//String auto = "Peugeot";
 		
-		Auto objetoAuto = new AutoElectrico();
+		//Auto objetoAuto = new AutoElectrico();
 		
 		Auto objetoAuto2 = new AutoElectrico ("azul","208",9099.99d,"motor");
 		

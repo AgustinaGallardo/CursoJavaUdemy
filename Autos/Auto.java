@@ -1,4 +1,4 @@
-package ppp;
+package Autos;
 
 public abstract class Auto {
 	
