@@ -4,7 +4,7 @@ public class PolimorfismoMain {
 	
 	public static void main (String[] args) {
 		
-		Auto coche1 = new Auto();
+		//Auto coche1 = new Auto();
 		AutoElectrico coche2 = new AutoElectrico();
 		AutoHibrido coche3 =new AutoHibrido();
 		

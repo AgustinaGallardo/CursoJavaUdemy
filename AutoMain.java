@@ -5,9 +5,10 @@ public class AutoMain {
 	public static void Main (String[] args) {
 		
 		String auto = "Peugeot";
-		Auto objetoAuto = new Auto();
 		
-		Auto objetoAuto2 = new Auto ("azul","208",9099.99);
+		Auto objetoAuto = new AutoElectrico();
+		
+		Auto objetoAuto2 = new AutoElectrico ("azul","208",9099.99d,"motor");
 		
 		objetoAuto2.acelerar(50);
 		

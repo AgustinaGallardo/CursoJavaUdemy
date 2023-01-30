@@ -1,6 +1,6 @@
 package ppp;
 
-public class Auto {
+public abstract class Auto {
 	
 	//Atributos
 	String color;
