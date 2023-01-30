@@ -17,7 +17,7 @@ public class Entrada {
 		int edad = entrada.nextInt();
 		
 		System.out.println("Hola "+NombreUsuario+ " el año que viene cumplis "
-		                     + (edad+1) + " años, Disfrutalos!!! mientras puedas bue q le pasaba");
+		                     + (edad+1) + " años, Disfrutalos!!! ");
 		
 
 	}
