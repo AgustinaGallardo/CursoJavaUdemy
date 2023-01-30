@@ -25,7 +25,14 @@ public String toString() {
 	return "El coche" + color + ", con un peso de " + peso + " de motor " 
 			+ motorElectrico; 
 }
-	
+
+
+//subreescritura de un constructor
+@Override
+public void acelerar(Integer cantidad) {
+	Integer cantidadAjustada = (cantidad*2);
+	super.acelerar(cantidadAjustada);
+}
 	
 	
 

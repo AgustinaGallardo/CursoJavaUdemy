@@ -18,6 +18,12 @@ public class AutoMain {
 		
 		autoElectrico.acelerar(50);
 		autoElectrico.color = "rojo";
+		autoElectrico.fabricante = "Peugeot";
+		autoElectrico.modelo = "300";
+		autoElectrico.motorElectrico= "motor agua";
+		autoElectrico.peso = 300.30d;
+				
+		
 		
 		System.out.println(autoElectrico);
 		
