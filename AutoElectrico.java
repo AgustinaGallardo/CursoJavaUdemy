@@ -14,6 +14,11 @@ public AutoElectrico(String motorElectrico) {
 	this.motorElectrico=motorElectrico;
 		
 	}
+	
+	public AutoElectrico(String color, String modelo, Double peso,String motorElectrico) {
+		super(color,modelo,peso); //metodo super, que asigna los atributos de la clase padre
+		this.motorElectrico=motorElectrico;			
+		}
 
 @Override
 public String toString() {
