@@ -1,6 +1,6 @@
 package Autos;
 
-public abstract class Auto {
+public  class Auto {
 	
 	//Atributos
 	String color;
